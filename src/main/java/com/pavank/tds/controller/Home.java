@@ -11,4 +11,10 @@ public class Home {
 		return "<h1> Hello Spring !</h1>";
 	}
 
+
+	@GetMapping("/Home")
+	public String home() {
+		return "<h1> Welcome to TDS DashBoard!</h1>";
+	}
+
 }
