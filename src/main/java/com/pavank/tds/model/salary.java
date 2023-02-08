@@ -1,14 +1,12 @@
 package com.pavank.tds.model;
 
-import java.time.LocalDate;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
 
 public class salary {
-    @id
+    @Id
     private long id;
     private String MonthYear;
     private String EmployeeNo;
